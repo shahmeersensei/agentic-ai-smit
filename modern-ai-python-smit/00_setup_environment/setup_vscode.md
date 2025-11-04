@@ -1,10 +1,34 @@
-# Setup VS Code
+# 🧰 Setup VS Code for Python
 
-Short checklist to get VS Code ready for the course:
+Chalo shuru karte hain apna coding setup! 😎  
+Yahan hum VS Code ready karenge taake Python easily chale.
 
-1. Install Python 3.10+ and add it to PATH.
-2. Install the Microsoft Python extension and Pylance.
-3. Create and activate a virtual environment (venv) for the project.
-4. Open the `modern-ai-python-smit` folder in VS Code and select the project interpreter.
+---
 
-Tip: Use the `test_environment.py` script to verify your interpreter and common packages after setup.
+## 🐍 Step 1: Install Python
+1. Go to [python.org/downloads](https://www.python.org/downloads)
+2. Download latest Python 3 version.
+3. During install → ✅ Tick “Add Python to PATH”.
+
+💬 *Tip:*  
+> “Yeh step skip mat karna warna command line me error ayega!”
+
+---
+
+## 💻 Step 2: Install VS Code
+1. Download from [code.visualstudio.com](https://code.visualstudio.com/)
+2. Open it and go to **Extensions (Ctrl + Shift + X)**.
+3. Install:
+   - **Python** (by Microsoft)
+   - **Pylance**
+
+💬 *Tip:*  
+> “Yeh dono install kar lo — warna VS Code bolega ‘Python kaun?’ 😅”
+
+---
+
+## 🧩 Step 3: Make a Virtual Environment
+Open terminal in your project folder and run:
+
+```bash
+python -m venv venv
